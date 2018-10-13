@@ -4,6 +4,8 @@
 
 Insert the countries you have visited and view how much of the world you have conquered!
 
+![World Travel Vue](./static/worldtravelvue.PNG)
+
 ## Build Setup
 
 ``` bash

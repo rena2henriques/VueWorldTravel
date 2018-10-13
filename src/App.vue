@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		
-		<span id="title">Show your <b>CONQUEST!</b></span>
+		<span id="title"><b>World Travel</b> Vue!</span>
 		<div id="mySelect">
 			<v-select label="name" :options="countries" v-model="selected" placeholder="Insert a country you have visited!"></v-select>
 			<button @click="addToVisited(selected)">Add</button>
