@@ -8,6 +8,8 @@
 			<button @click="removeFromVisited(selected)">Remove</button>
 		</div>
 		<WorldMap :visitedCountries="visitedCountries"></WorldMap>
+
+		<span id="signature"><b>Renato Henriques</b>, <i>a boy who should be studying</i></span>
 	</div>
 </template>
 
@@ -62,6 +64,13 @@ body {
   left: 0;
 	font-style: italic;
 	font-size: 1.875em;
+}
+
+#signature {
+	position: fixed;
+	bottom: 0;
+  right: 0;
+	font-size: 0.895em;
 }
 
 </style>
